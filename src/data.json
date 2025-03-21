@@ -1,0 +1,143 @@
+{
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "customNode",
+      "position": {
+        "x": -440,
+        "y": 20
+      },
+      "data": {
+        "type": "richCard",
+        "content": {
+          "title": "dasda",
+          "description": "sdasd",
+          "image": "",
+          "actions": [
+            {
+              "value": "button"
+            },
+            {
+              "value": ""
+            }
+          ]
+        }
+      },
+      "measured": {
+        "width": 384,
+        "height": 673
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "node-2",
+      "type": "customNode",
+      "position": {
+        "x": -120,
+        "y": -760
+      },
+      "data": {
+        "type": "carousel",
+        "content": {
+          "cards": [
+            {
+              "title": "tesafas",
+              "description": "dsdas",
+              "image": "",
+              "actions": [
+                {
+                  "value": "button"
+                },
+                {
+                  "value": "link"
+                }
+              ]
+            },
+            {
+              "title": "sdas",
+              "description": "dasdas",
+              "image": "",
+              "actions": []
+            }
+          ]
+        }
+      },
+      "measured": {
+        "width": 816,
+        "height": 688
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "node-3",
+      "type": "customNode",
+      "position": {
+        "x": 580,
+        "y": 20
+      },
+      "data": {
+        "type": "richCard",
+        "content": {
+          "title": "dasd",
+          "description": "sdas",
+          "image": "",
+          "actions": [
+            {
+              "value": "button"
+            }
+          ]
+        }
+      },
+      "measured": {
+        "width": 384,
+        "height": 570
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "connections": [
+    {
+      "id": "edge-node-1-node-2-1742467478956",
+      "sourceId": "node-1",
+      "targetId": "node-2",
+      "sourcePosition": {
+        "x": -260,
+        "y": 0
+      },
+      "targetPosition": {
+        "x": 320,
+        "y": -20
+      },
+      "edgeData": {
+        "source": "node-1",
+        "sourceHandle": null,
+        "target": "node-2",
+        "targetHandle": "target-right-0",
+        "id": "edge-node-1-node-2-1742467478956"
+      }
+    },
+    {
+      "id": "edge-node-3-node-2-1742467499364",
+      "sourceId": "node-3",
+      "targetId": "node-2",
+      "sourcePosition": {
+        "x": 500,
+        "y": 80
+      },
+      "targetPosition": {
+        "x": 40,
+        "y": -20
+      },
+      "edgeData": {
+        "source": "node-3",
+        "sourceHandle": null,
+        "target": "node-2",
+        "targetHandle": "target-left-0",
+        "id": "edge-node-3-node-2-1742467499364"
+      }
+    }
+  ]
+}

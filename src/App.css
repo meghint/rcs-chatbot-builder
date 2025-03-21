@@ -1,0 +1,31 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.carousel-wrapper div.carousel-card::after {
+  content: "";
+  width: 16px;
+  background: #ffffff;
+  height: 375px;
+  right: -16px;
+  position: absolute;
+  top: 10px;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  z-index: -1;
+}
+
+.carousel-wrapper div.carousel-card:last-child::after {
+  width: 0;
+  display: none;
+  opacity: 0;
+}
