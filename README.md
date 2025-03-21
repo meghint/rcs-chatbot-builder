@@ -4,7 +4,7 @@ A React application for creating and managing connected card components using Re
 
 ## Project Overview
 
-This project implements a visual card builder interface where users can create, connect, and manage two types of cards:
+This project implements a visual flow builder interface where users can create, connect, and manage two types of cards:
 
 - **Carousel Card**: A dynamic card component that can display multiple items in a carousel format
 - **Rich Card**: A versatile card component for displaying detailed content
@@ -13,10 +13,9 @@ This project implements a visual card builder interface where users can create, 
 
 - Custom ReactFlow nodes for Carousel and Rich Cards
 - Modern UI components powered by shadcn UI
-- Dynamic data handling through JSON configuration
+- Dynamic data handling through JSON data impoert/export
 - Interactive node connections and flow management
 - Automatic state persistence using local storage
-- Responsive and user-friendly interface
 
 ## Technical Stack
 
@@ -55,27 +54,24 @@ This project implements a visual card builder interface where users can create, 
 
 #### Carousel Card Node
 
-- Implements a swipeable card interface
-- Supports multiple content items
-- Configurable through JSON data
+- Implements a card interface
+- Supports multiple actions
 
 #### Rich Card Node
 
-- Displays detailed content with various layouts
+- Displays detailed content with multple actions
 - Supports rich text and media content
-- Customizable styling options
 
 ### Data Management
 
-- Card data is stored in a structured JSON format
+- Card data is stored in a zustand store
 - Real-time flow state synchronization
 - Automatic saving to prevent data loss
 
 ### Flow Management
 
-- Drag-and-drop node creation
+- Interactive node creation
 - Interactive node connections
-- Custom connection validation
 - State persistence in local storage
 
 ## Development Guidelines
@@ -85,11 +81,3 @@ This project implements a visual card builder interface where users can create, 
 - Implement proper error handling
 - Write clean, documented code
 - Follow shadcn UI design patterns
-
-## Evaluation Metrics
-
-- Component integration quality
-- Data flow implementation
-- UI/UX consistency
-- Code organization and clarity
-- Performance optimization
